@@ -1121,7 +1121,7 @@ def show_enhanced_login():
         <div style="text-align: center; margin-bottom: 2rem;">
             <div style="font-size: 4rem; margin-bottom: 1rem;">🛒</div>
             <div class="walmart-header" style="font-size: 2.5rem; margin-bottom: 1rem;">
-                Project Nexus
+                NEXUS-X 
             </div>
             <p style="color: #94a3b8; font-size: 1.1rem;">AI-Empathetic Retail Experience</p>
         </div>
@@ -1145,7 +1145,7 @@ def show_enhanced_login():
                     st.session_state.username = user[1]
                     st.session_state.user_role = user[4]
                     st.session_state.user_id = user[0]
-                    st.success("✅ Welcome to Project Nexus!")
+                    st.success("✅ Welcome to NEXUS-X !")
                     log_action(username, "login_success")
                     time.sleep(1)
                     st.rerun()
@@ -1225,7 +1225,7 @@ def main_nexus_app():
     # Header
     st.markdown('''
         <div style="text-align: center; margin-bottom: 3rem;">
-            <div class="walmart-header">🌌 Project Nexus</div>
+            <div class="walmart-header">🌌 NEXUS-X </div>
             <p style="font-size: 1.3rem; color: #94a3b8; margin-bottom: 2rem;">
                 AI-Empathetic Retail Experience • Walmart Sparkathon 2025
             </p>
