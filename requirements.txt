@@ -18,3 +18,4 @@ Pillow==10.4.0
 # Additional Utilities (optional but recommended)
 python-dotenv==1.0.1
 requests==2.32.3
+textblob
